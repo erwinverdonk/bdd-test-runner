@@ -1,0 +1,24 @@
+{
+  "name": "bdd-test-runner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "../lib/main.js",
+  "bin": {
+    "bdd-test-runner": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node ./bin/index.js"
+  },
+  "author": "Erwin Verdonk <e.verdonk@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "deepmerge": "^2.1.0",
+    "fs-extra": "^5.0.0",
+    "js-yaml": "^3.11.0",
+    "minimist": "^1.2.0",
+    "uuid": "^3.2.1",
+    "wdio-allure-reporter": "^0.5.0",
+    "wdio-cucumber-framework": "^1.1.0",
+    "webdriverio": "^4.12.0"
+  }
+}

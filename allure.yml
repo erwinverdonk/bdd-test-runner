@@ -1,0 +1,4 @@
+---
+plugins:
+  - behaviors-plugin
+  - screen-diff-plugin
